@@ -1,0 +1,51 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+
+train:  # train images 
+  - /ECAC/data/datasets/Cityscapes2/images/train/aachen
+  - /ECAC/data/datasets/Cityscapes2/images/train/bochum
+  - /ECAC/data/datasets/Cityscapes2/images/train/bremen
+  - /ECAC/data/datasets/Cityscapes2/images/train/cologne
+  - /ECAC/data/datasets/Cityscapes2/images/train/darmstadt
+  - /ECAC/data/datasets/Cityscapes2/images/train/dusseldorf
+  - /ECAC/data/datasets/Cityscapes2/images/train/erfurt
+  - /ECAC/data/datasets/Cityscapes2/images/train/hamburg
+  - /ECAC/data/datasets/Cityscapes2/images/train/hanover
+  - /ECAC/data/datasets/Cityscapes2/images/train/jena
+  - /ECAC/data/datasets/Cityscapes2/images/train/krefeld
+  - /ECAC/data/datasets/Cityscapes2/images/train/monchengladbach
+  - /ECAC/data/datasets/Cityscapes2/images/train/strasbourg
+  - /ECAC/data/datasets/Cityscapes2/images/train/stuttgart
+  - /ECAC/data/datasets/Cityscapes2/images/train/tubingen
+  - /ECAC/data/datasets/Cityscapes2/images/train/ulm
+  - /ECAC/data/datasets/Cityscapes2/images/train/weimar
+  - /ECAC/data/datasets/Cityscapes2/images/train/zurich
+val:  # val images 
+  - /ECAC/data/datasets/FoggyCityscapes/images/val/frankfurt
+  - /ECAC/data/datasets/FoggyCityscapes/images/val/lindau
+  - /ECAC/data/datasets/FoggyCityscapes/images/val/munster
+test:  # test images (optional)
+uda: 
+  - /ECAC/data/datasets/FoggyCityscapes/images/train/aachen
+  - /ECAC/data/datasets/FoggyCityscapes/images/train/bochum
+  - /ECAC/data/datasets/FoggyCityscapes/images/train/bremen
+  - /ECAC/data/datasets/FoggyCityscapes/images/train/cologne
+  - /ECAC/data/datasets/FoggyCityscapes/images/train/darmstadt
+  - /ECAC/data/datasets/FoggyCityscapes/images/train/dusseldorf
+  - /ECAC/data/datasets/FoggyCityscapes/images/train/erfurt
+  - /ECAC/data/datasets/FoggyCityscapes/images/train/hamburg
+  - /ECAC/data/datasets/FoggyCityscapes/images/train/hanover
+  - /ECAC/data/datasets/FoggyCityscapes/images/train/jena
+  - /ECAC/data/datasets/FoggyCityscapes/images/train/krefeld
+  - /ECAC/data/datasets/FoggyCityscapes/images/train/monchengladbach
+  - /ECAC/data/datasets/FoggyCityscapes/images/train/strasbourg
+  - /ECAC/data/datasets/FoggyCityscapes/images/train/stuttgart
+  - /ECAC/data/datasets/FoggyCityscapes/images/train/tubingen
+  - /ECAC/data/datasets/FoggyCityscapes/images/train/ulm
+  - /ECAC/data/datasets/FoggyCityscapes/images/train/weimar
+  - /ECAC/data/datasets/FoggyCityscapes/images/train/zurich
+
+# Classes
+nc: 8 # number of classes
+names: ['person', 'car', 'train', 'rider', 'truck', 'motorcycle', 'bicycle', 'bus'] # class names
+# Download script/URL (optional)
+download: 
